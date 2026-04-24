@@ -7,7 +7,7 @@
 
 delimiter $$
 
-create trigger auditar_auditor_cambio_precio
+create trigger auditar_cambio_precio
 after update on productos 
 for each row
 begin
